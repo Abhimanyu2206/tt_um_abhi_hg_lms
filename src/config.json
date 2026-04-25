@@ -1,0 +1,8 @@
+{
+  "DESIGN_NAME": "tt_um_abhi_hg_lms",
+  "VERILOG_FILES": "dir::tt_um_abhi_hg_lms.v hg_lms_top.v harmonic_generator.v lms_adaptive_filter.v compressor3_2.v radix4_square_8bit.v radix4_square_16bit.v shift_add_mul_8x16.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "PL_TARGET_DENSITY": 0.75
+}
