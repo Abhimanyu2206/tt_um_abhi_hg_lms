@@ -1,11 +1,12 @@
 module tt_um_abhi_hg_lms (
-    input  wire [7:0] ui_in,    // dedicated inputs
-    output wire [7:0] uo_out,   // dedicated outputs
-    input  wire [7:0] uio_in,   // bidirectional inputs
-    output wire [7:0] uio_out,  // bidirectional outputs
-    output wire [7:0] uio_oe,   // output enable
+    input  wire [7:0] ui_in,
+    output wire [7:0] uo_out,
+    input  wire [7:0] uio_in,
+    output wire [7:0] uio_out,
+    output wire [7:0] uio_oe,
     input  wire       clk,
-    input  wire       rst_n
+    input  wire       rst_n,
+    input  wire       ena
 );
 
     // Map inputs
