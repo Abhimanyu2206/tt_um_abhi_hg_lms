@@ -8,7 +8,6 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
 This design implements a power line interference canceller using a harmonic generator and an LMS adaptive filter.
 
 The harmonic generator produces multiple harmonic components (60Hz, 120Hz, 180Hz, 240Hz equivalents in discrete domain) using optimized arithmetic blocks such as squarers and compressors.
@@ -16,7 +15,6 @@ The harmonic generator produces multiple harmonic components (60Hz, 120Hz, 180Hz
 The LMS adaptive filter uses these harmonic references to adaptively estimate and cancel interference from the input signal.
 
 ## How to test
-
 Provide input signal x_in through ui_in and desired signal d_in through uio_in.
 
 Observe the output y_out on uo_out and error signal e_out on uio_out.
