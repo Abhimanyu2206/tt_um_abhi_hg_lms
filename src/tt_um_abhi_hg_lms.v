@@ -1,1 +1,2 @@
-
+module dummy();
+endmodule
